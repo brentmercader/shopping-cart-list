@@ -14,7 +14,7 @@ const ShoppingCart = ( ) => {
       <h3>YOUR CART SUMMARY</h3>
       <div className="summary-container">
         <div className="product-list-summary">
-        {cart.map( ( product: any ) => <ProductSummary {...product} onClick={()=> {}}/> )}
+        {cart.map( ( product: any ) => <ProductSummary {...product} /> )}
         </div>
         <div>
           <OrderSummary/>
